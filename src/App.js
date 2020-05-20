@@ -60,6 +60,10 @@ class Normal2 extends React.Component {
 }
 
 class Normal3 extends React.Component {
+  shouldComponentUpdate = () => {
+    // return a boolean value
+    return false;
+  }
   render() {
     return (
       <strong>
